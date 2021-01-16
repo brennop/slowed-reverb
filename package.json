@@ -1,0 +1,20 @@
+{
+  "name": "slowed-bot",
+  "version": "1.0.0",
+  "description": "slowed + reverb",
+  "main": "index.js",
+  "author": "brennop",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord-player": "^3.2.1",
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
