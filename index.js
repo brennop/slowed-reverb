@@ -1,9 +1,10 @@
+require("dotenv").config();
 const Discord = require("discord.js");
 
 const client = new Discord.Client();
 const settings = {
-  prefix: "~",
-  token: "Nzk4NTUxNjU2OTI0NTc3ODQy.X_2rLw.t-O08X1GTNIDYkBgH_zZ99ZjDg4",
+  prefix: process.env.PREFIX,
+  token: process.env.TOKEN,
 };
 
 const { Player } = require("discord-player");
