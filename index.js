@@ -15,8 +15,8 @@ client.player.filters = {
   ...client.player.filters,
   bassboost: "bass=g=10",
   vaporwave: "aresample=48000,asetrate=48000*0.85",
-  reverb: "ladspa=gverb_1216:gverb:10|5|0.9|0.75|-4|-6",
-  normalizer: "dynaudnorm=g=31",
+  reverb: "ladspa=gverb_1216:gverb:40|5|0.7|0.5|0|-10|-12",
+  normalizer: "dynaudnorm=g=15",
 };
 
 client.player.on("queueCreate", (message, queue) => {
