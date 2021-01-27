@@ -385,10 +385,9 @@ detect-libc@^1.0.3:
   resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
   integrity sha1-+hN8S9aY7fVc1c0CrFWfkaTEups=
 
-discord-player@^3.2.1:
+"discord-player@https://github.com/brennop/discord-player":
   version "3.2.1"
-  resolved "https://registry.yarnpkg.com/discord-player/-/discord-player-3.2.1.tgz#2b04328e410d7e11bae5dee3b510d7da5c269093"
-  integrity sha512-mkyoqHcmWxkGXXmbQW5FJlPWeq1IrP18q/fAk3Dy5Q838l6+i1oXAJujzjt+NSzDXUnf/XsYh8XnXsXGQBC8WQ==
+  resolved "https://github.com/brennop/discord-player#7a8f990d17c599bf96c6edf85232d5d76f845789"
   dependencies:
     "@types/node" "^14.14.7"
     discord-ytdl-core "^5.0.0"

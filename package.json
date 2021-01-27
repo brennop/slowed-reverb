@@ -7,11 +7,12 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
-    "discord-player": "^3.2.1",
+    "discord-player": "https://github.com/brennop/discord-player",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
   },
