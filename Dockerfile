@@ -8,7 +8,9 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 RUN npm install
+RUN npm install ytdl-core@latest
 
 COPY . .
 
-RUN npm run dev
+EXPOSE 8080
+CMD ["node", "index.js"]
